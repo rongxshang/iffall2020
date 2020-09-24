@@ -1,0 +1,39 @@
+p{
+    font-family: Courier, Courier, monospace;
+    line-height: 10px;
+}
+h3{
+    font-family: Courier, Courier, monospace;
+    font-size: 20px; 
+    font-weight:bold; 
+    line-height: 10px;
+}
+h1{
+    font-family:Georgia, serif; 
+    font-size: 45px; 
+}
+.names{
+    font-weight: bold;
+}
+.pv{
+    color:cadetblue;
+}
+.db{
+    color:coral;
+}
+.mayor{
+    color:firebrick;
+}
+.rs{
+    color:slateblue; 
+}
+.es{
+    color:orangered;
+}
+.wz{
+    color:olivedrab; 
+}
+.italics{
+    font-style: italic;
+    color:gray; 
+}
