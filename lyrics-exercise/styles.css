@@ -49,6 +49,9 @@ a{
     position: absolute;
     top: 320px; 
 }
+#center{
+    text-align; center; 
+}
 h1{
     line-height: 50px; 
     font-size: 50px; 
