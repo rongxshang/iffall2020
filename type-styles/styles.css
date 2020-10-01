@@ -1,0 +1,74 @@
+p{
+    font-family:'Crimson Text', serif;
+    font-size:25px; 
+    line-height: 5px;
+    
+}
+h1{
+    font-family:'Crimson Text', serif;
+    font-size:50px; 
+    line-height: 25px;
+}
+h2{
+    font-size:25px; 
+    font-family:Arial, Helvetica, sans-serif; 
+    line-height: 10px;
+    font-weight: normal;
+}
+h3{
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:40px; 
+    line-height: 10px;
+    text-indent: -2.5rem; 
+}
+h5{
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:15px;
+    color:lightslategray; 
+    font-weight: normal;
+   
+     
+}
+br{
+    line-height: 5px;
+}
+body{
+    margin:10%; 
+}
+div{
+    text-align:center; 
+}
+section{
+    margin: 5em 0; 
+}
+
+#bold{
+    font-weight:bold; 
+}
+#italic{
+    font-style:italic;
+}
+#spacedout{
+    letter-spacing:0.3em; 
+}
+#cramped{
+    letter-spacing:-0.05em; 
+}
+#underline{
+    text-decoration: underline;
+}
+#linethrough{
+    text-decoration: line-through;
+}
+#overline{
+    text-decoration: overline;
+}
+#lowercase{
+    text-transform: lowercase;
+}
+#uppercase{
+    text-transform: uppercase;
+}
+#capitalize{
+    text-transform: capitalize; 
+}
