@@ -1,0 +1,117 @@
+
+html{
+    background-image: linear-gradient(180deg,rgba(68,126,182,1) 0%, rgba(0,11,37,1) 100% );
+    
+}
+
+#outcontainer{
+    position:fixed;
+    top: 25%; 
+    left:15%; 
+    /* margin-left:150px;  */
+    /* left: 50%; */
+    /* transform: translate(0, 50%);  */
+}
+#album{
+    position: absolute;
+    width: 500px;
+
+}
+a{
+    text-align: center;
+    font-family: 'Reenie Beanie', cursive;
+    font-size:15px; 
+    text-decoration: none;
+    line-height: 0;
+}
+
+    /* link not visited */
+a:link {
+    color:rgb(226, 239, 250); 
+  }
+  
+  /* visited link */
+  a:visited {
+    color:rgb(226, 239, 250); 
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:coral; 
+  }
+  
+
+#box{
+    position: absolute; 
+    top:17px;
+    left:17px; 
+    width: 460px;
+    height: 460px; 
+    border: solid rgb(226, 239, 250) 3px;
+}
+
+section{
+    position:relative;
+    text-align:center; 
+    margin-top: 10%;
+    margin-bottom: 8%;
+    left:15%; 
+}
+.begin{
+    color:rgb(226, 239, 250); 
+    text-align: center;
+    display:block;
+}
+#spacer{
+    position: absolute;
+    top: 320px; 
+}
+#center{
+    text-align: center; 
+}
+h1{
+    line-height: 50px; 
+    font-size: 100px; 
+    text-align: center; 
+    letter-spacing: 0.05em;
+    /* font-family: 'DM Serif Text', serif; */
+    font-family: 'Reenie Beanie', cursive;
+}
+h3{
+    /* letter-spacing: 0.1em; */
+    /* font-family: 'DM Serif Text', serif;  */
+    font-family: 'Reenie Beanie', cursive;
+    font-size:40px; 
+    line-height: 5px;
+}
+p{
+    line-height: 10px;
+    /* font-size:17px; */
+    font-family: 'Tenor Sans', sans-serif;
+    /* font-family: 'Taviraj', serif; */
+}
+.section{
+    font-style:italic; 
+}
+.chorus{
+    color:lightsalmon; 
+    font-size: 19px;
+}
+.verse{
+    color:lightcoral; 
+    font-size:17px;
+}
+.bridge{
+    color:coral; 
+    font-size:17px;
+}
+.prechorus{
+    color: rgb(223, 173, 173); 
+    font-size:17px;
+}
+
+#copyright{
+    color: whitesmoke; 
+    font-size: 10px; 
+}
+
