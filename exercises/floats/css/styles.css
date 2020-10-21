@@ -76,6 +76,12 @@ html {
   
   .portrait {
     width: 125px;
+    float:left; 
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    
   }
   
   .positioned-element {
@@ -93,10 +99,6 @@ html {
     padding: 0 1rem;
   }
 
-.portrait{
-    float:left; 
-    margin: 0 2rem; /* first value = top/bottom then right/left */
-}
 .instructions {
     clear:both; 
 }
