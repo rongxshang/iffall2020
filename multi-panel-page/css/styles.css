@@ -1,0 +1,118 @@
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header{
+    background-image: url(https://live.staticflickr.com/65535/50526980777_812ca65f79_o.jpg);
+    background-size: cover; 
+    background-position: 50% 70%;
+    color:rgb(211, 219, 247); 
+    text-align: center; 
+    padding-top:150px;
+    height:330px;
+}
+h1{
+    font-size:80px; 
+    margin-top: auto;
+    margin-bottom: auto;
+}
+h2{
+    font-size: 30px; 
+    margin-top: 0rem;
+}
+
+.column-container{
+    width:960px; 
+    margin:auto; 
+}
+
+h3{
+    text-align: center;
+    font-size: 40px; 
+    margin-bottom: 2rem; 
+}
+.large-image{
+    height:300px; 
+    width: 400px;
+    object-fit: cover;
+    float:right; 
+    margin-left: 2.63rem; 
+    margin-bottom:2rem; 
+}
+p{
+    font-size:17.8px; 
+    line-height: 1.6rem;
+}
+
+.first{
+    background-color: rgb(243, 209, 159); 
+    padding-top: 1px; 
+    padding-bottom:35px;
+    color: rgb(216, 86, 72); 
+}
+
+
+.second{
+    background-color: rgb(255, 172, 152);
+    height: 687px; 
+    padding-top:1px;
+    color: rgb(63, 105, 184);
+}
+.photo-grid{
+    height:150px; 
+    width:200px;
+    object-fit: cover;
+    float:left; 
+    margin-right:12px; 
+}
+.reposition-bottom{
+    object-position: 50% 80%;
+}
+.reposition-top{
+    object-position: 50% 30%;
+}
+.grid{
+    padding:0; 
+    font-size:0; 
+}
+.grid li{
+    display:inline-block; 
+    width:50%;
+    margin-bottom:24px;
+}
+.photo-title{
+    font-size:20px; 
+    letter-spacing: 0.015rem;
+    line-height:2.0rem;
+    font-weight: bold;
+}
+.photo-caption{
+    font-size:17px; 
+    line-height: 1.6rem;
+    margin-right:2rem;
+    letter-spacing: 0.018rem;
+}
+
+.ending{
+    text-align: center;
+    margin: auto;
+    font-size:26px; 
+    line-height: 2.3rem;
+    width:730px; 
+}
+.third{
+    background-color: rgb(184, 203, 231); 
+    height: 404px;
+    padding:1px; 
+    color: rgb(209, 138, 6); 
+
+}
+.footer{
+    font-size:18px; 
+    background-color: rgb(218, 209, 228); 
+    height: 100px; 
+    color: midnightblue; 
+}
+.footer > div{
+    padding-top: 40px;
+}
