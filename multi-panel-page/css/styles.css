@@ -4,8 +4,10 @@ body{
 
 header{
     background-image: url(https://live.staticflickr.com/65535/50526980777_812ca65f79_o.jpg);
-    background-size: cover; 
+    /* background-size: cover;  */
     background-position: 50% 70%;
+    background-repeat:no-repeat;
+    width:100%;
     color:rgb(211, 219, 247); 
     text-align: center; 
     padding-top:150px;
