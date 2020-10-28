@@ -94,6 +94,6 @@ html {
         display:flex; 
     }
     .two-columns-example > *{
-        width:50%:  
+        width:50%;  
     }
 }
