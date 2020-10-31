@@ -1,0 +1,32 @@
+.overall-container{
+    max-width:960px;
+    min-width:320px; 
+    margin:auto; 
+    padding-top: 2rem; 
+    padding-bottom: 3rem; 
+    padding-left: 5rem;
+    padding-right: 5rem; 
+}
+h1,h3{
+    text-align: center;
+}
+img{
+    display:block; 
+    margin:2rem auto; 
+    width: 70%;
+}
+
+.grid{
+    display:flex; 
+    flex-wrap:wrap; 
+    padding-left:0;
+    padding-top:2rem; 
+    padding-bottom: 3rem; 
+    list-style-type: none;
+}
+
+@media (min-width: 640px){
+    .half-box{
+        width: 50%;
+    }
+}
