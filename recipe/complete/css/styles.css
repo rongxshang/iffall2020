@@ -16,11 +16,11 @@ h1,h2{
     color: rgb(228, 91, 67); 
 }
 h1{
-    font-size: 50pt; 
+    font-size: 35pt; 
     margin-bottom: 1.5rem; 
 }
 h2{
-    font-size:25pt; 
+    font-size:20pt; 
     margin-bottom:1rem; 
 }
 h3{
@@ -58,9 +58,11 @@ header > div{
         width: 45%;
         padding-right:5%;  
     }
-
-
+    h1{
+        font-size:50pt; 
+    }
 }
+
 .add_info{
     font-size:14pt; 
     color: rgb(235, 187, 67); 
