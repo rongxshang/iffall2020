@@ -597,6 +597,7 @@ a#btn_tonightshow:hover .tts{
     border-bottom-right-radius: 32px;
     border-bottom-left-radius:20px; 
     opacity: 1;
+    
 }
 a#btn_tonightshow #moon{
     position: absolute; 
@@ -664,7 +665,7 @@ a#btn_moo img{
     
 
     margin: auto;
-    margin-top: 95px; 
+    margin-top: 85px; 
     padding-bottom: 5px;
     z-index:0; 
     
@@ -675,6 +676,7 @@ a#btn_moo img:hover{
     box-shadow: 0px 5px 0px 0 	rgb(28, 156, 107); 
     width: 80%;
     transition:all 0.5s; 
+
 }
 
 
