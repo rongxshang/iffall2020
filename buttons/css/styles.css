@@ -1,0 +1,731 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+
+a#btn_coca img{
+    display: block;
+    width:60%; 
+    margin-top: 100px; 
+    margin-right:auto; 
+    margin-left:auto; 
+    z-index: 10;
+    transition: all .1s;
+}
+
+a#btn_coca img:hover{
+    width:70%; 
+    height:auto; 
+    margin-top: 90px; 
+    margin-right:auto; 
+    margin-left:auto; 
+    outline: 4px solid red;
+    outline-offset: 20px;
+    
+}
+a#btn_coca img:active{
+    outline: 5px solid black;
+    outline-offset: 20px;
+    
+}
+
+a#btn_apple {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    font-size: 100px;
+    transition: all .2s;
+    color:rgb(97, 97, 97); 
+    text-decoration: none;
+    transition: all .5s;
+}
+a#btn_apple div{
+    font-size: 15px; 
+    text-align: center;
+    color:rgb(97, 97, 97); 
+    text-decoration: none;
+    line-height: 0;
+    margin-top:0;
+    font-family:Garamond, Georgia, serif;
+}
+
+a#btn_apple:hover{
+    color:rgb(190, 190, 190); 
+    
+}
+a#btn_apple:hover div{
+    /* color:rgb(190, 190, 190);  */
+    transition: all .5s;
+    font-size: 18px;
+    
+}
+
+a#btn_harley #harley_outline{
+    width: 160px;
+    position: absolute;
+    transform: translate(-50%, 24%);
+    z-index: 0;
+   
+}
+a#btn_harley #harley_logo{
+    width: 150px;
+    position: absolute;
+    transform: translate(-50%, 50%);
+    z-index: 10;
+    opacity: 0; 
+}
+a#btn_harley #harley_logo:hover{
+    width: 150px;
+    position: absolute;
+    transform: translate(-50%, 50%);
+    z-index: 10;
+    opacity: 0.99; 
+    transition: all .4s;
+}
+
+a#btn_mk{
+    display: inline-block;
+    height: 50px;
+    margin-left: -20px; 
+    margin-top: 80px;
+    font-size: 80px;
+    font-family: 'Maven Pro', sans-serif;
+    text-decoration: none;
+    transition: all .5s;
+    letter-spacing: -1.5rem;
+    z-index:10; 
+    color:white; 
+}
+    
+a#btn_mk .dot{
+    display: absolute; 
+    height: 150px;
+    width: 150px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding:0; 
+    margin-top: -120px;
+   
+    margin-left: 20px; 
+    background-color: rgb(238, 221, 192); 
+    z-index: 0; 
+}
+a#btn_mk:hover{
+    color: rgb(163, 139, 98); 
+    transition: all .25s;
+}
+
+a#btn_fitbit img{
+    display: block; 
+    width:65%;  
+    margin: auto;
+    margin-top: 90px; 
+    transition: all .5s;
+}
+a#btn_fitbit:hover img{
+    margin-top: 80px; 
+    width:70%;  
+    
+}
+
+a#btn_fitbit:active img{
+    margin-left:70px; 
+    transition: all .5s;
+}
+
+a#btn_newyorker img{
+    display: block; 
+    width:80%;  
+    margin: auto;
+    margin-top: 100px; 
+    padding-bottom: 5px;
+    transition: all .4s;
+}
+
+a#btn_newyorker img:hover{
+    /* box-shadow: 0 -1px 0 #000; */
+    box-shadow: 0px 4px 0px 0 #888888; 
+}
+
+a#btn_npr span{
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color:black; 
+    position: absolute; 
+    margin-left:-75px;
+    margin-top: 95px;
+    letter-spacing: 0.9rem;
+    z-index: 10; 
+    transition: all .4s;
+ 
+}
+a#btn_npr .block{
+    height: 65px;
+    width: 65px;
+    margin-top:100px; 
+    position: absolute;
+    z-index:0; 
+    
+}
+a#btn_npr:hover .p{
+    background-color: black; 
+    margin-left:102px; 
+
+}
+a#btn_npr:hover .r{
+    background-color:rgb(32, 127, 195);
+
+    margin-left:167px; 
+   
+}
+
+a#btn_npr:hover .n{
+    background-color: 	rgb(219, 40, 48); 
+ 
+    
+    margin-left:37px; 
+  
+}
+
+a#btn_npr:hover span{
+    color:white; 
+}
+
+
+a#btn_thecolorrun{
+    font-family: 'Teko', sans-serif;
+    color:black; 
+    font-size: 70px;
+    line-height: 50px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin-top:50px; 
+    transition: all .3s;
+}
+a#btn_thecolorrun .fa-running{
+    display: inline-block;
+    font-size:40px; 
+    transform: skewY(-7deg);
+}
+
+a#btn_thecolorrun #the:hover{ 
+    
+    color:rgb(234, 17, 141); 
+   
+}
+a#btn_thecolorrun #color:hover{
+    
+    color:rgb(236, 219, 10);
+   
+}
+a#btn_thecolorrun #run:hover{
+    
+    color:rgb(43, 173, 228); 
+   
+}
+
+a#btn_thecolorrun:active #the{ 
+    
+    color:rgb(234, 17, 141); 
+   
+}
+a#btn_thecolorrun:active #color{
+    
+    color:rgb(236, 219, 10);
+   
+}
+a#btn_thecolorrun:active #run{
+    color:rgb(43, 173, 228); 
+    font-style: oblique;
+   
+}
+a#btn_thecolorrun:active .fa-running{
+    transform: skewY(-20deg);
+   
+}
+
+a#btn_ideo img{
+    display: block; 
+    width:100%;  
+    margin: auto;
+    margin-top: 40px; 
+}
+a#btn_ideo span{
+    font-family: 'Inconsolata', monospace;
+    font-size:50px; 
+    position:absolute; 
+    margin-top:-40px; 
+    text-decoration: none;
+    margin-left:-80px; 
+    letter-spacing: 1.2rem;
+    color: rgb(119, 119, 119); 
+}
+a#btn_ideo:hover span{
+    
+    color: rgb(97, 202, 196);
+}
+
+a#btn_ideo:active span{   
+    color: rgb(238, 103, 38); 
+}
+
+a#btn_cartoonnetwork span{
+    font-size: 80px;
+    font-family: 'Changa One', cursive;
+    text-decoration: none;
+    color:white; 
+    position: absolute; 
+    margin-left:-70px;
+    margin-top: 85px;
+    letter-spacing: 1rem;
+    z-index: 10; 
+    transition: all .4s;
+}
+a#btn_cartoonnetwork span#n{
+    margin-left: 15px; 
+    color:black;  
+}
+a#btn_cartoonnetwork .block_cn{
+    height: 90px;
+    width: 90px;
+    margin-top:85px; 
+    position: absolute;
+    z-index:0; 
+    transition: all .4s;
+}
+
+a#btn_cartoonnetwork .c{
+    background-color: black; 
+    margin-left: 35px;
+
+}
+a#btn_cartoonnetwork .n{
+    background-color: white; 
+    margin-left: 125px;
+    
+}
+
+a#btn_cartoonnetwork:hover .c{
+    background-color: white; 
+}
+a#btn_cartoonnetwork:hover .n{
+    background-color: black; 
+}
+a#btn_cartoonnetwork:hover #c{
+    color: black; 
+}
+a#btn_cartoonnetwork:hover #n{
+    color: white; 
+}
+
+a#btn_nike img{
+    display: block; 
+    width:70%;  
+    margin: auto;
+    margin-top: 85px; 
+}
+
+a#btn_nike{
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px; 
+    text-decoration: none;
+    color:white; 
+  
+}
+a#btn_nike:hover span{
+    color:rgb(199, 113, 15); 
+    transition: all .5s;
+    
+}
+
+a#btn_nike:hover img{
+    
+    margin-top: 75px;
+    transition: all .5s; 
+}
+
+a#btn_tesla img{
+    display: block; 
+    width:60%;  
+    margin: auto;
+    margin-top: 45px; 
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 30px 30px 30px 30px;
+    
+    
+    
+}
+a#btn_tesla img:hover{
+    box-shadow: 0 0 20px #ff0000;
+}
+
+a#btn_ig .fa-instagram{
+    font-size:110px; 
+    position: relative;
+    margin:auto;
+    margin-top: 65px;
+    background-color: white; 
+    color: black; 
+    padding:10px; 
+    box-sizing: border-box;
+    border-radius: 20px;
+    line-height: 120px;
+    transition: all .2s; 
+}
+
+a#btn_ig:hover .fa-instagram{
+    font-size: 130px; 
+    background: rgb(131,58,180);
+    background: linear-gradient(225deg, rgba(131,58,180,1) 25%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 75%);
+    color:white; 
+
+}
+
+a#btn_fb .fa-facebook-square{
+    font-size:120px; 
+    position: absolute;
+    margin-left:-10px; 
+    margin-top:75px;
+    color: rgb(59, 89, 152); 
+    transition: all 0.3s; 
+    z-index: 10; 
+}
+
+a#btn_fb .fa-thumbs-up{
+    font-size:85px; 
+    position: relative;
+    margin:auto;
+    margin-top: 95px;
+    color: rgb(59, 89, 152); 
+    z-index: 0;
+    transition: all 0.7s; 
+    opacity: 0;
+}
+
+
+a#btn_fb:hover .fa-facebook-square{
+    opacity: 0;
+}
+a#btn_fb:hover .fa-thumbs-up{
+    opacity: 1;
+}
+
+a#btn_lyft .fa-lyft{
+    font-size:110px; 
+    position: relative;
+    margin:auto;
+    margin-top: 70px;
+    
+    color: black; 
+    padding:10px; 
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 20px; 
+
+    transition: all .2s; 
+}
+a#btn_lyft:hover .fa-lyft{
+    box-shadow: 0 0 30px #FF00BF; 
+    color: #FF00BF; 
+    background-color:black; 
+}
+
+a#btn_tonightshow img{
+    display: absolute; 
+    width:60%;  
+    margin: auto;
+    margin-top: 65px; 
+    z-index:0; 
+}
+a#btn_tonightshow:hover .tts{
+    height:44px; 
+    width: 105px; 
+    background-color: white; 
+    position: absolute;
+    margin-left:81px; 
+    margin-top:-72px; 
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius:20px; 
+    opacity: 1;
+}
+a#btn_tonightshow #moon{
+    position: absolute; 
+    font-size:55px; 
+    z-index: 100; 
+    color:black; 
+    padding:0; 
+    margin-left:-5px; 
+    margin-top:-85px;
+    transform: rotate(-120deg);
+    opacity:0;
+    transition: all 0.3s; 
+}
+
+a#btn_tonightshow:hover #moon{
+    opacity:1; 
+ 
+}
+a#btn_tonightshow:active #moon{
+ 
+    color:rgb(245, 203, 19); 
+}
+
+a#btn_samsung div{
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    position: absolute; 
+    margin:auto;
+    margin-top: 115px;
+    margin-left:55px; 
+    letter-spacing: 0.1rem;
+    z-index: 10;
+    transition:all 0.4s; 
+    color:  rgb(11, 72, 191); 
+}
+
+a#btn_samsung .ssung{
+    position:absolute; 
+    height: 80px;
+    width: 200px;
+    z-index: 0;
+    margin-top:95px; 
+    margin-left:30px; 
+    z-index: 0;
+    box-sizing: border-box;
+    border-radius: 180px / 70px;
+    transform: skewX(-50deg);
+}
+a#btn_samsung:hover div{
+    
+    color: white; 
+
+}
+
+a#btn_samsung:hover .ssung{
+    
+    background-color: rgb(11, 72, 191); 
+
+}
+
+a#btn_moo img{
+    position:inline-block;  
+    width:70%;  
+    
+
+    margin: auto;
+    margin-top: 95px; 
+    padding-bottom: 5px;
+    z-index:0; 
+    
+}
+
+a#btn_moo img:hover{
+    /* box-shadow: 0 -1px 0 #000; */
+    box-shadow: 0px 5px 0px 0 	rgb(28, 156, 107); 
+    width: 80%;
+    transition:all 0.5s; 
+}
+
+
+a#btn_oldnavy{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    text-decoration: none;
+    display: absolute; 
+    color:rgb(4, 68, 115); 
+
+}
+
+a#btn_oldnavy div{
+    z-index: 10; 
+    margin-top:110px; 
+    
+}
+
+
+a#btn_oldnavy .on_oval{
+    position:absolute; 
+    height: 80px;
+    width: 220px;
+    z-index: 0;
+    margin-top:-62px; 
+    margin-left:17px; 
+    z-index: 0;
+    box-sizing: border-box;
+    border-radius: 180px / 70px;
+    transition: all 0.3s; 
+}
+a#btn_oldnavy:hover .on_oval{
+    border-radius: 180px / 70px;
+    border:5px solid rgb(4, 68, 115); 
+}
+
+a#btn_molly{
+    font-family: 'Charmonman', cursive;
+    font-size:35px; 
+    text-decoration: none;
+    display:inline-block; 
+    margin-top:95px; 
+    color: 	rgb(60, 83, 44);
+    transition:all 0.5s; 
+}
+a#btn_molly:hover .fa-tree{
+ 
+    font-size: 45px;
+    transition:all 0.5s; 
+  
+}
+a#btn_molly:active{
+    color: rgb(119, 138, 106);
+} 
